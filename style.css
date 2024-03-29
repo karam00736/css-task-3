@@ -4,58 +4,56 @@
   box-sizing: border-box;
 }
 
+/* set width and height of body tag*/
 body {
   width: 100vw;
   height: 100vh;
 }
 
-
-
+/* image container postion change and center */
 .image-container {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+
 }
 
-/* Centers the
-  image container */
-
-
-
-.image-container image,
+/* set display property inline instead of block */
+.image,
 button {
   display: block;
 }
 
+/* set width and height of image tag */
 .image {
-  width: 600px;
-  height: 300px;
+  width: 50vw;
+  height: 60vh;
 }
 
+/* set button porperty */
 button {
-  width: 600px;
-  margin-top: -5px;
-  font-size: 18px;
-  padding: 20px;
+  width: 50vw;
+  height: 10vh;
+  font-size: 1.2vw;
   text-align: center;
-  border-radius: 0%;
-  color: rgb(245, 240, 240);
-  border: solid .2px #64B8EB;
-  background-image: linear-gradient(115deg, #F4BA15, #6DCB38);
-
+  color: white;
+  cursor: pointer;
+  border-radius: 0vw;
+  border: .1vw solid #64B8EB;
+  background-image: linear-gradient(115deg, #ddba4f, #78C935);
 }
 
+/* set hover effect on button */
 button:hover {
-  width: 600px;
-  margin-top: -5px;
-  font-size: 18px;
-  padding: 20px;
+  width: 50vw;
+  height: 10vh;
+  font-size: 1.2vw;
   text-align: center;
-  border-radius: 0%;
-  color: #803300;
-  border: solid .2px #64B8EB;
-  background-image: linear-gradient(115deg, #f4b915bf, #6ecb38ae);
+  color: #C05C09;
   cursor: pointer;
+  border-radius: 0vw;
+  border: .1vw solid #64B8EB;
+  background-image: linear-gradient(118deg, #efc74eb1, #78c935b8);
 
 }
